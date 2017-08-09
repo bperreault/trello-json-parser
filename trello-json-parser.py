@@ -8,25 +8,7 @@ complete_file = 'prettyjson.json'
 tabdelimited_file = 'allcards_tabbed.txt'
 
 file_extension = '.txt' # the file extension you'd like to use
-end_dir = '/Users/Bobbi/GitHub/_Clubby/_ProjectManagement/trello-json-parser-master' # the directory to store your cards 
-
-# convertedjsonfile = "clubbyNoUnicode.json"
-# get rid of unicode chars that break parsing below
-# convertfile = open(json_file, "r") 
-# txt = convertfile.read() 
-# convertfile.close()
-#txt.encode('ascii','ignore')
-#txt = txt.encode('utf-8', 'ignore').replace(u'\u014c\u0106\u014d\u2022','-').decode('ascii')
-# txt = txt.decode('utf-8').replace(u'\u014c\u0106\u014d\u2022','-')
-
-# unic = u''
-# unic += txt
-# txt = unic
-
-# writerfile = open( convertedjsonfile ,"w") 
-# writerfile.write(txt.encode('utf-8')) 
-# writerfile.close() 
-
+end_dir = '/Users/Bobbi/GitHub/trello-json-parser' # the directory to store your cards 
 
 # open json
 with open(json_file) as data_file:
